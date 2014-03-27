@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hooks (0.4.0)
+      uber (~> 0.0.4)
+    ruby-processing (2.4.2)
+    uber (0.0.4)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  hooks (= 0.4.0)
+  ruby-processing (= 2.4.2)

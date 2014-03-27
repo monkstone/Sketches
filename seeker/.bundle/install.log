@@ -1,0 +1,4 @@
+# Logfile created on 2014-03-28 00:11:42 +0530 by logger.rb/44203
+I, [2014-03-28T00:11:42.540968 #73324]  INFO -- : 0:  uber (0.0.4) from /Users/emil/.rvm/gems/ruby-2.1.0/specifications/uber-0.0.4.gemspec
+I, [2014-03-28T00:11:46.084608 #73324]  INFO -- : 0:  hooks (0.4.0) from /Users/emil/.rvm/gems/ruby-2.1.0/specifications/hooks-0.4.0.gemspec
+I, [2014-03-28T00:11:46.084977 #73324]  INFO -- : 0:  bundler (1.5.1) from /Users/emil/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec

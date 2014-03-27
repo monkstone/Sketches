@@ -1,0 +1,5 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+gem "ruby-processing", '2.4.2'
+gem "hooks", '0.4.0'
