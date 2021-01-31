@@ -1,14 +1,18 @@
 require_relative './vehicle'
 
-def setup
+def settings
   size(640, 360)
-  @v = Vehicle.new(width/2, height/2)
+end
+
+def setup
+  sketch_title 'Seeker'
+  @v = Vehicle.new(width / 2, height / 2)
 end
 
 def draw
-  background(255);
+  background(255)
 
-  mouse = PVector.new(mouseX, mouseY)
+  mouse = Vec2D.new(mouse_x, mouse_y)
 
   # Draw an ellipse at the mouse location
   fill(200)
@@ -18,6 +22,5 @@ def draw
 
   # Call the appropriate steering behaviors for our agents
   @v.seek(mouse)
-  @v.update
-  @v.display
+  @v.run
 end

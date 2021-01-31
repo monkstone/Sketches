@@ -1,15 +1,22 @@
-require_relative './particle_system'
-def setup
+# frozen_string_literal: true
+
+load_library :particle_system
+
+attr_reader :ps, :troll
+
+def settings
   size 700, 500
-  smooth
+end
+
+def setup
+  sketch_title 'Particle Systems'
   particle_count = 100
-  origin = PVector.new(width/2, height/2)
+  origin = Vec2D.new(width / 2, height / 2)
+  @troll = load_image(data_path('troll.png'))
   @ps = ParticleSystem.new(particle_count, origin)
 end
 
-
 def draw
   background 0
-  @ps.add_particle
-  @ps.update
+  ps.run
 end
